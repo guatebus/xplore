@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)http://requestmap.webperf.tools/render/170623_A6_7eef57c00ce9cd95369ae6b80c0dc49f -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Request Map for http://www.idealista.es on Friday the 23rd of June at 1pm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./index_files/vis4,_vis.min.css+bootstrap.min.css+request.css.pagespeed.cc.WauMJ7i9RG.css">
+    
+    
+
+    <script async="" src="./index_files/analytics.js"></script><script src="./index_files/jquery-1.11.2.min.js"></script>
+    <script src="./index_files/vis.min.js"></script>
+</head>
+
+<body class="">
+<div id="container">
+    <div id="header">
+        <h1><a href="http://requestmap.webperf.tools/">Request Map</a> for <span id="url">http://www.idealista.es</span> <span class="rwd-line">on Friday the 23rd of June at 1pm</span></h1>
+
+    </div>
+    <div id="networkgraph"><div class="vis-network" tabindex="900" style="position: relative; overflow: hidden; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"><canvas width="2552" height="1272" style="position: relative; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"></canvas><div class="vis-navigation"><div class="vis-button vis-up" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="vis-button vis-down" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="vis-button vis-left" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="vis-button vis-right" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="vis-button vis-zoomIn" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="vis-button vis-zoomOut" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="vis-button vis-zoomExtends" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></div><div class="vis-network-tooltip" style="left: 731px; top: 93px; visibility: hidden;"><b>st1.idealista.com</b>
+        <p>Category: <em>Unknown</em>
+        </p><p></p><table class="ttip">
+        <tbody><tr><td>Requests:</td><td>9</td></tr>
+        <tr><td>Total Bytes:</td><td>138kB</td></tr>
+        <tr><td>Mean TTFB:</td><td>75ms</td></tr>
+        <tr><td>Mean Load Time:</td><td>116ms</td></tr>
+        </tbody></table><p></p></div></div></div>
+    <div id="footer">
+        <h3 id="foot">Built by <a target="_blank" href="https://twitter.com/simonhearne">Simon</a> | <a title="Works in Chrome. Also right-click / save image as." href="http://requestmap.webperf.tools/render/170623_A6_7eef57c00ce9cd95369ae6b80c0dc49f#" onclick="var link=document.createElement(&#39;a&#39;);link.download=&#39;requestmap_http://www.idealista.es.png&#39;;link.href=document.getElementsByTagName(&#39;canvas&#39;)[0].toDataURL(&#39;image/png&#39;);link.click();">Download Image</a> | <a target="_blank" href="http://www.webpagetest.org/result/170623_A6_7eef57c00ce9cd95369ae6b80c0dc49f">View on webpagetest.org</a> | <a href="blob:http://requestmap.webperf.tools/9970b339-2b19-46cc-8bba-cbd4e782da6b" download="requestmap_http://www.idealista.es.csv">Download CSV Data</a></h3>
+    </div>
+</div>
+<div class="btn-round" data-toggle="modal" data-target="#info-modal"><span>i</span></div>
+<div class="btn-round cog" data-toggle="modal" data-target="#settings-modal"></div>
+<div class="modal fade" id="settings-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">RequestMap Settings</h4>
+      </div>
+      <div class="modal-body">
+	<table>
+		<tbody><tr>
+			<td><label for="selfrefs">Hide self-reference loops?</label></td><td><input onclick="toggleSelfRefs(this.checked);" type="checkbox" id="selfrefs" name="selfrefs"></td></tr>
+		
+	</tbody></table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="info-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">RequestMap Info</h4>
+      </div>
+      <div class="modal-body">
+	<p>RequestMap uses Chrome request data from WebPageTest to visualise the requests on a page.<br>
+	This service is intended as a proof-of-concept to help identify third-parties on a page and where they are called from.<br>
+	Hover on a node or edge to get more detailed information. Right-click on the chart to save it as an image.</p>
+        <table>
+		<tbody><tr><td><script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','http://requestmap.webperf.tools/render/170623_A6_7eef57c00ce9cd95369ae6b80c0dc49f','lMpVCh1qtf',true,false,'z_yghyf5tss');
+//]]></script><img class="info-img" src="./index_files/xnode_info.png.pagespeed.ic.1fEkZG3MfI.webp" data-pagespeed-url-hash="1138788515" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></td><td>The nodes in a requestmap represent domains. The size of the node represents the percentage of transmitted bytes from that domain.</td></tr>
+		<tr><td><img class="info-img" src="./index_files/xnode_edges.png.pagespeed.ic.GDMjNX1DMq.webp" data-pagespeed-url-hash="1099540927" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></td><td>The edges in a requestmap represent requests between domains. The length of the edge represents the mean TTFB of the target domain. The width of the edge represents the number of requests between the domains. Dashed lines represent requests initiated from a script or identified through a referer header.</td></tr>
+		<tr><td><img class="info-img" src="./index_files/xcircular_info.png.pagespeed.ic.toIY5HOEE-.webp" data-pagespeed-url-hash="1910953126" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></td><td>Looped edges represent requests initiated from the same domain.</td></tr>
+
+	</tbody></table>
+	<br>
+	<p>If you have any questions or comments please <a href="https://www.twitter.com/simonhearne" target="_blank">tweet me</a>.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./index_files/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() { 
+	setTimeout(renderGraph,200);
+	addCSV();
+});
+	function addCSV() {
+		var csv = `host,company,category,total_bytes,average_ttfb,average_load,number_requests
+www.idealista.es,Target Site,Target Site,274,118,200,1
+ www.idealista.com,Unknown,Unknown,9617,181,417,3
+ st1.idealista.com,Unknown,Unknown,138339,677,1043,9
+ tags.tiqcdn.com,Tealium,Tag Management,9226,107,296,3
+ logs3.xiti.com,AT Internet,Analytics,788,131,509,2
+ static.hotjar.com,Hotjar,Analytics,1566,36,192,1
+ script.hotjar.com,Hotjar,Analytics,70627,78,348,1
+ vars.hotjar.com,Hotjar,Analytics,1143,36,219,1
+ img3.idealista.com,Unknown,Unknown,100121,67,1081,1
+ `;
+		var link = document.createElement("a");
+		var blob = new Blob(["\ufeff",csv]);
+		var url = URL.createObjectURL(blob);
+		link.href=url;
+		link.innerText = "Download CSV Data";
+		link.download="requestmap_http://www.idealista.es.csv";
+		var footer = document.getElementById("foot")
+		footer.innerHTML = footer.innerHTML +" | ";
+		footer.appendChild(link);
+	}
+	function toggleSelfRefs(hide) {
+		for (var edge in edges._data) {
+			edgeO = edges.get(edge);
+			if (edgeO.from===edgeO.to) {
+				edges.update({id:edge,hidden:hide});
+			}
+		}
+	}
+       function renderGraph() {
+	var categories = ["Target Site","Unknown","Tag Management","Analytics"];
+        var nodesArr = [{"id":"www.idealista.es","shape":"dot","label":"www.idealista.es","size":6.7,"title":"<b>www.idealista.es<\/b>\r\n        <p>Category: <em>Target Site<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>1<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>0kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>118ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>200ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Target Site"},{"id":"www.idealista.com","shape":"dot","label":"www.idealista.com","size":14.8,"title":"<b>www.idealista.com<\/b>\r\n        <p>Category: <em>Unknown<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>3<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>10kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>60ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>139ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Unknown"},{"id":"st1.idealista.com","shape":"dot","label":"st1.idealista.com","size":42.3,"title":"<b>st1.idealista.com<\/b>\r\n        <p>Category: <em>Unknown<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>9<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>138kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>75ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>116ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Unknown"},{"id":"tags.tiqcdn.com","shape":"dot","label":"tags.tiqcdn.com","size":14.6,"title":"<b>tags.tiqcdn.com<\/b>\r\n        <p>Category: <em>Tag Management<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>3<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>9kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>36ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>99ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Tag Management"},{"id":"logs3.xiti.com","shape":"dot","label":"logs3.xiti.com","size":7.8,"title":"<b>logs3.xiti.com<\/b>\r\n        <p>Category: <em>Analytics<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>2<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>1kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>66ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>255ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Analytics"},{"id":"static.hotjar.com","shape":"dot","label":"static.hotjar.com","size":9,"title":"<b>static.hotjar.com<\/b>\r\n        <p>Category: <em>Analytics<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>1<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>2kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>36ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>192ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Analytics"},{"id":"script.hotjar.com","shape":"dot","label":"script.hotjar.com","size":31.6,"title":"<b>script.hotjar.com<\/b>\r\n        <p>Category: <em>Analytics<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>1<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>71kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>78ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>348ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Analytics"},{"id":"vars.hotjar.com","shape":"dot","label":"vars.hotjar.com","size":8.4,"title":"<b>vars.hotjar.com<\/b>\r\n        <p>Category: <em>Analytics<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>1<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>1kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>36ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>219ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Analytics"},{"id":"img3.idealista.com","shape":"dot","label":"img3.idealista.com","size":36.7,"title":"<b>img3.idealista.com<\/b>\r\n        <p>Category: <em>Unknown<\/em>\r\n        <p><table class='ttip'>\r\n        <tr><td>Requests:<\/td><td>1<\/td><\/tr>\r\n        <tr><td>Total Bytes:<\/td><td>100kB<\/td><\/tr>\r\n        <tr><td>Mean TTFB:<\/td><td>67ms<\/td><\/tr>\r\n        <tr><td>Mean Load Time:<\/td><td>1081ms<\/td><\/tr>\r\n        <\/table><\/p>","group":"Unknown"},{"id":"Target Site","shape":"dot","label":"Target Site","size":10,"group":"Target Site","fixed":true,"x":-700,"y":-300,"physics":false},{"id":"Unknown","shape":"dot","label":"Unknown","size":10,"group":"Unknown","fixed":true,"x":-700,"y":-250,"physics":false},{"id":"Tag Management","shape":"dot","label":"Tag Management","size":10,"group":"Tag Management","fixed":true,"x":-700,"y":-200,"physics":false},{"id":"Analytics","shape":"dot","label":"Analytics","size":10,"group":"Analytics","fixed":true,"x":-700,"y":-150,"physics":false},{"id":"dir0","shape":"dot","size":1,"fixed":true,"x":-780,"y":-80,"mass":0},{"id":"dir1","shape":"dot","size":1,"fixed":true,"x":-620,"y":-80,"mass":0},{"id":"ind0","shape":"dot","size":1,"fixed":true,"x":-780,"y":-30,"mass":0},{"id":"ind1","shape":"dot","size":1,"fixed":true,"x":-620,"y":-30,"mass":0},{"id":"red0","shape":"dot","size":1,"fixed":true,"x":-780,"y":20,"mass":0},{"id":"red1","shape":"dot","size":1,"fixed":true,"x":-620,"y":20,"mass":0},{"id":"ref0","shape":"dot","size":1,"fixed":true,"x":-780,"y":70,"mass":0},{"id":"ref1","shape":"dot","size":1,"fixed":true,"x":-620,"y":70,"mass":0}];
+        var edgesArr = [{"from":"www.idealista.es","to":"www.idealista.com","width":1.5,"length":62.3,"selfReferenceSize":8.8571428571429,"title":"1 redirect request from www.idealista.es to www.idealista.com.","dashes":[5,10]},{"from":"www.idealista.com","to":"www.idealista.com","width":1.5,"length":62.3,"selfReferenceSize":8.8571428571429,"title":"1 redirect request from www.idealista.com to itself.","dashes":[5,10],"arrows":{"middle":false}},{"from":"www.idealista.com","to":"www.idealista.com","width":1.5,"length":62.3,"selfReferenceSize":7.75,"title":"1 request (identified from referer header)<br\/> from www.idealista.com to itself.","dashes":[10,10],"arrows":{"middle":false}},{"from":"www.idealista.com","to":"st1.idealista.com","width":1.5,"length":77.2,"selfReferenceSize":12.833333333333,"title":"1 indirect (i.e. from Javascript, CSS or DOM manipulation) request<br\/> from www.idealista.com to st1.idealista.com.","dashes":[3,3]},{"from":"www.idealista.com","to":"st1.idealista.com","width":4,"length":77.2,"selfReferenceSize":15.4,"title":"7 direct requests from www.idealista.com to st1.idealista.com."},{"from":"www.idealista.com","to":"tags.tiqcdn.com","width":1.5,"length":37.7,"selfReferenceSize":7.4,"title":"1 direct request from www.idealista.com to tags.tiqcdn.com."},{"from":"www.idealista.com","to":"logs3.xiti.com","width":1.5,"length":67.5,"selfReferenceSize":8.375,"title":"1 request (identified from referer header)<br\/> from www.idealista.com to logs3.xiti.com.","dashes":[10,10]},{"from":"www.idealista.com","to":"logs3.xiti.com","width":1.5,"length":67.5,"selfReferenceSize":13.4,"title":"1 direct request from www.idealista.com to logs3.xiti.com."},{"from":"www.idealista.com","to":"img3.idealista.com","width":1.5,"length":69,"selfReferenceSize":8.625,"title":"1 request (identified from referer header)<br\/> from www.idealista.com to img3.idealista.com.","dashes":[10,10]},{"from":"st1.idealista.com","to":"st1.idealista.com","width":1.5,"length":77.2,"selfReferenceSize":15.4,"title":"1 direct request from st1.idealista.com to itself.","arrows":{"middle":false}},{"from":"tags.tiqcdn.com","to":"tags.tiqcdn.com","width":2.1,"length":37.7,"selfReferenceSize":7.4,"title":"2 direct requests from tags.tiqcdn.com to itself.","arrows":{"middle":false}},{"from":"tags.tiqcdn.com","to":"static.hotjar.com","width":1.5,"length":38,"selfReferenceSize":7.6,"title":"1 direct request from tags.tiqcdn.com to static.hotjar.com."},{"from":"static.hotjar.com","to":"script.hotjar.com","width":1.5,"length":80,"selfReferenceSize":16,"title":"1 direct request from static.hotjar.com to script.hotjar.com."},{"from":"static.hotjar.com","to":"vars.hotjar.com","width":1.5,"length":38,"selfReferenceSize":7.6,"title":"1 direct request from static.hotjar.com to vars.hotjar.com."},{"from":"dir0","to":"dir1","width":1,"smooth":{"enabled":false},"length":0,"label":"Request in Source"},{"from":"ind0","to":"ind1","width":1,"smooth":{"enabled":false},"length":0,"label":"DOM Injected","dashes":[3,3]},{"from":"red0","to":"red1","width":1,"smooth":{"enabled":false},"length":0,"label":"Redirect","dashes":[5,10]},{"from":"ref0","to":"ref1","width":1,"smooth":{"enabled":false},"length":0,"label":"Referer Identified","dashes":[10,10]}];
+	nodes = new vis.DataSet(nodesArr);
+	edges = new vis.DataSet(edgesArr);
+        var options = {
+		layout: {
+			randomSeed: 2567658745885
+		},
+		interaction: {
+			keyboard: {
+				enabled: true
+			},
+			navigationButtons: true,
+			
+		},
+		edges: {
+			arrows: {
+				middle: {enabled:true,scaleFactor:0.5}
+			},
+			dashes:false,
+			hoverWidth:2,
+			selectionWidth:5,
+			font: {
+				align: 'bottom'
+			}
+		},
+		nodes: {
+			size:4,
+			borderWidthSelected:5
+		},
+            	physics: {
+			repulsion: {
+				centralGravity:0
+			},
+			solver:'repulsion',
+			stabilization: {
+				iterations:2500
+			}
+                }
+        };
+// create a network
+        var container = document.getElementById('networkgraph');
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+        graphnetwork = new vis.Network(container, data, options);
+        //graphnetwork.focusOnNode('www.idealista.es',{scale:0.8});
+	//graphnetwork.zoomExtends();
+	//graphnetwork.on('select', function (properties) {
+	//console.log(graphnetwork.getSelection());
+	//});
+        $(window).resize(function(){graphnetwork.redraw();});
+    };
+</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-6512525-15','auto');ga('send','pageview');</script>
+
+
+
+</body></html>
